@@ -30,7 +30,7 @@ for the full license text.
 ## How to install/update
 - Enable this copr repository,
   ```sh
-  $ dnf copr enable deathwish/emacs-pgtk-nativecomp
+  $ dnf copr enable faultline/emacs-pgtk-nativecomp
   ```
 - Install latest pretest,
   ```sh
