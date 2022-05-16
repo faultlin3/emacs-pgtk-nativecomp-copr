@@ -1,6 +1,6 @@
 %global _hardened_build 1
 
-%global commit      7c9dd6227041556a10a53fefb061d4bd2f0fefdf
+%global commit      0361310992bb624fbf4b8493c24e6f5a3d196168
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global commit_date 20220316
 %global gitrel      .%{commit_date}.git%{shortcommit}
@@ -13,7 +13,7 @@
 Summary:       GNU Emacs text editor
 Name:          emacs
 Epoch:         1
-Version:       28.0.92
+Version:       28.1.50
 Release:       1%{gitrel}%{?dist}
 License:       GPLv3+ and CC0-1.0
 URL:           http://www.gnu.org/software/emacs/
