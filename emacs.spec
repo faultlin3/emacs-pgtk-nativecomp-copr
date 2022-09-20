@@ -82,6 +82,7 @@ BuildRequires: gtk3-devel
 BuildRequires: webkit2gtk3-devel
 
 BuildRequires: gnupg2
+BuildRequires: systemd-rpm-macros
 
 %if %{enable_lucid}
 # For lucid
